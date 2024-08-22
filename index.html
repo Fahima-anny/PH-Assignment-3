@@ -42,40 +42,7 @@
      <header class="py-5 px-3 md:px-5 lg:px-32 bg-mybg">
         <div class="navbar ">
             <div class=" navbar-start">
-              <div class="dropdown ">
-                <div tabindex="0" role="button" class="btn ml-0 pl-0 pr-2 btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-9 w-9 p-2 rounded-full bg-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li class="text-para "><a>Home</a></li>
-                  <li class="text-para "><a>Services</a></li>
-                  <li class="text-para "><a>Portfolio</a></li>
-                  <li class="text-para "><a>Blogs</a></li>
-                  <li class="text-para "><a>Contact Us</a></li>
-                  <li>
-                    <div class="flex md:hidden justify-center">
-                      <a class="btn bg-lime-400 hover:bg-lime-300 font-bold text-lg py-2 text-black rounded-full">
-                          Book Consult
-                          <i class="fa-solid fa-arrow-right-long bg-black text-white -rotate-45 rounded-full p-1 "></i>
-                        </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <a class="flex justify-center items-center gap-1 text-xl ml-[8vw] md:ml-0">
+              <a class="flex justify-center items-center gap-1 text-xl ml-0">
                 <i class="fa-solid fa-arrow-right-long bg-lime-400 -rotate-45 rounded-full p-1 "></i>
                 <h1 class="font-bold text-3xl ">Rinterio</h1></a>
             </div>
@@ -95,6 +62,39 @@
                   Book Consult
                   <i class="fa-solid fa-arrow-right-long bg-black text-white -rotate-45 rounded-full p-1 "></i>
                 </a>
+                <div class="dropdown dropdown-left ">
+                    <div tabindex="0" role="button" class="btn mr-0 pr-0 btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-9 w-9 p-2 rounded-full bg-white"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li class="text-para "><a>Home</a></li>
+                      <li class="text-para "><a>Services</a></li>
+                      <li class="text-para "><a>Portfolio</a></li>
+                      <li class="text-para "><a>Blogs</a></li>
+                      <li class="text-para "><a>Contact Us</a></li>
+                      <li>
+                        <div class="flex md:hidden justify-center">
+                          <a class="btn bg-lime-400 hover:bg-lime-300 font-bold text-lg py-2 text-black rounded-full">
+                              Book Consult
+                              <i class="fa-solid fa-arrow-right-long bg-black text-white -rotate-45 rounded-full p-1 "></i>
+                            </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
             </div>
           </div>
      </header>
@@ -102,7 +102,7 @@
 
 
    <!-- main starts  -->
-    <main class="pb-5 bg-mybg">
+    <main class="md:pb-2 bg-mybg">
 
 
         <!-- banner section starts  -->
@@ -253,13 +253,83 @@
 
 
 
+<!-- testimonial section starts   -->
+ <section class="bg-slate-100 md:bg-white py-3 px-3 md:py-20 md:px-5 lg:px-32 space-y-5">
+
+ </section>
+<!-- testimonial section ends  -->
+
+
+
+<!-- contact section starts  -->
+<div
+  class="hero my-0"
+  style="background-image: url(./assets/bg.jpg);">
+
+  <div class="hero-content text-neutral-content text-center">
+    <section class=" py-3 px-3 md:py-20 md:px-5 lg:px-32 space-y-5 flex flex-col items-center">
+        <button class="text-slate-900 rounded-full text-center text-sm font-bold bg-lime-200 py-1 px-3">
+            <i class="fa-solid fa-arrow-right-long mr-2"></i>
+            Let’s Connect</button>
+            <h1 class="font-black text-2xl md:text-3xl text-black text-center">Let’s Discuss Next Project</h1>
+            <p class="text-para text-sm font-medium  text-center">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, <br class="hidden md:flex"> featuring weathered wood, sleek metal accents.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full md:w-[60vw] ">
+                    <input
+                    type="text"
+                    placeholder="First Name*"
+                    class=" input input-md rounded-3xl " />
+                    <input
+  type="text"
+  placeholder="Last Name*"
+  class="input rounded-3xl input-md" />
+  <input
+  type="text"
+  placeholder="Phone Number*"
+  class="input rounded-3xl input-md  " />
+  <input
+  type="text"
+  placeholder="Email Number*"
+  class="input rounded-3xl input-md  " />
+
+  <textarea
+  placeholder="Write your message here"
+  class="textarea rounded-3xl textarea-lg text-sm h-36 md:col-span-2"></textarea>
+  <button class="btn btn-block md:col-span-2 rounded-3xl bg-lime-400 hover:bg-lime-200 spx-2 font-bold text-lg py-2 text-black rounded-full w-full md:w-auto ">
+    Send Mail
+    <i class="fa-solid fa-arrow-right-long text-white bg-black -rotate-45 rounded-full p-[6px]"></i>
+</button>
+                </div>
+     </section>
+  </div>
+</div>
+<!-- contact section ends -->
+
+
     </main>
    <!-- main ends  -->
 
 
 <!-- footer starts  -->
- <footer>
-
+ <footer class="py-8 md:py-28 px-3 md:px-5 lg:px-32 bg-black space-y-5 flex flex-col justify-center items-center">
+    <div class=" text-center">
+        <a class="flex justify-center items-center gap-1 text-xl ml-0">
+          <i class="fa-solid fa-arrow-right-long bg-lime-400 -rotate-45 rounded-full p-1 "></i>
+          <h1 class="font-semibold text-3xl  text-white">Rinterio</h1></a>
+      </div>
+      <p class="text-para text-sm font-medium  text-center">The barn house captivates with its blend of rustic charm and 
+        modern sophistication, <br class="hidden md:flex"> featuring weathered wood, sleek metal accents.</p>
+        <ul class="navbar justify-evenly flex-col md:flex-row gap-4 w-full text-white">
+            <li>Home</li>
+            <li>Service</li>
+            <li>Portfolio</li>
+            <li>Blogs</li>
+            <li>Contact Us</li>
+        </ul>
+        <a class="btn bg-lime-400 hover:bg-lime-300 font-bold text-lg py-2 text-black rounded-full ">
+            Book Consult
+            <i class="fa-solid fa-arrow-right-long bg-black text-white -rotate-45 rounded-full p-1 "></i>
+          </a>
  </footer>
 <!-- footer ends  -->
     
